@@ -132,6 +132,3 @@ async function obtenerPost(params) {
 
 
 
-//destructuring: Descomponer objetos o arrays en variables
-
-
