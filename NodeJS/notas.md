@@ -1,4 +1,4 @@
-# NODE JS
+# NodeJS
 
 **aprender aprender**
 
@@ -7,10 +7,10 @@
 
 ## Verbos HTTP
 
-* `GET`
-* `POST`
-* `PUT`
-* `DELETE`
+* GET
+* POST
+* PUT
+* DELETE
 
 
 ## Codigos de respuesta
@@ -55,7 +55,7 @@ import fs from "fs"
 
 ## EXPRESS
 
-### Que es?
+### ¿Que es?
 
 Es un *framework minimalista* que nos permite crear y manipular servidores de una forma mas amigable
 
