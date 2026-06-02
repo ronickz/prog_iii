@@ -4,7 +4,7 @@
 
 > Una operacion asincrona, **`es aquella que se carga en el stack pero no frena la ejecucion`**. Se carga, al no finalziar en el momento, el hilo sigue y una vez que finalice la funcion asincrona se utiliza el valor devuelto
 
-## CallBacks
+## Callbacks
 
 Los Callbacks son funciones que se pasan como parametro otras funciones. Para que despues sean ejecutadas (cuando lo determine la funcion).
 
