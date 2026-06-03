@@ -11,10 +11,15 @@ app.get("/",(req,res)=>{
 })
 
 
-app.get("/api/products",async(req,res)=>{
+app.get("/api/products", async(req,res)=>{
     try {
         const sql = 'SELECT * FROM products'
         const [rows] = await conn.query(sql)
+        
+        res.status(200).json({
+            payload:rows
+        })
+
     } catch (error) {
         console.log(`error obteniendo productos: ${error.message}`);
     }

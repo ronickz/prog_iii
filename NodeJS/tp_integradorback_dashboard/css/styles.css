@@ -1,0 +1,28 @@
+ul{
+    list-style: none;
+}
+
+header, .enlaces{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    height:80px
+}
+
+.logo{
+    width: 50px;
+    margin: auto;
+    height: 50px;
+}
+
+.logo img{
+    border-radius: 5px;
+}
+
+.enlaces{
+    width: 85%;
+    margin: 0;
+}
